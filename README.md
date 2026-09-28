@@ -15,3 +15,7 @@ Each tool has a **Choose folder...** button. Use it to select any accessible fol
 - **Duplicate Finder** scans the selected folder and its subfolders, checking file contents with MD5 hashes. The first copy in each match group is marked **KEEP**; select only **DUPLICATE** rows to move them to Recycle Bin.
 
 Always look at the preview before confirming a move or rename.
+
+## For contributors
+
+`CLAUDE.md` describes how the script is structured and the pitfalls to avoid when editing it. `.claude/skills/` holds agent skills (security review, simplification, end-to-end verification with a disposable test folder, wireframing and UI design guidance) for working on FileTidy with Claude Code or a similar coding agent.
